@@ -1,0 +1,64 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  background-color: #f0f0f0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.trails-main {
+  position: relative;
+  width: 60px;
+  height: 100%;
+  min-height: 100px;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid darkslategray;
+  border-top: 0;
+  padding-top: 4%;
+  border-radius: 5px;
+}
+
+.trails-text {
+  position: relative;
+  width: 120px;
+  height: 100%;
+  line-height: 45px;
+  color: darkslategray;
+  font-size: 2em;
+  font-weight: 500;
+  will-change: transform, opacity;
+  overflow: hidden;
+  /*border: 2px solid black;*/
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
+
+.trails-main > div {
+  text-align: center;
+  vertical-align: middle;
+}
